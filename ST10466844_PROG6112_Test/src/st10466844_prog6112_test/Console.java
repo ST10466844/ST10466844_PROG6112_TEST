@@ -20,11 +20,11 @@ public class Console extends ConsoleSales
     public void printAccidentReport()
     {
         System.out.println();
-        System.out.println("VEHICAL ACCIDENT REPORT");
+        System.out.println("CONSOLE SALES REPORT");
         System.out.println("**************************");
-        System.out.println("VEHICAL TYPE: "+ getConsoleType());
-        System.out.println("CITY: "+getStore());
-        System.out.println("ACCIDENT TOTAL: "+getTotalSales());
+        System.out.println("CONSOLE TYPE: "+ getConsoleType());
+        System.out.println("STRE: "+getStore());
+        System.out.println("TOTAL SALES: "+getTotalSales());
         System.out.println("**************************");
     }    
 }
